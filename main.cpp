@@ -41,6 +41,10 @@ int main()
     {
         result = (bil1 - bil2);
     }
+    else if (aritmetic == '*')
+    {
+        result = (bil1 * bil2);
+    }
 
     cout << "==================== \n";
     cout << "Result " << bil1 << " " << aritmetic << " " << bil2 << " = " << result << " \n";
