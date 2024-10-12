@@ -37,7 +37,7 @@ int main()
     {
         result = (bil1 + bil2);
     }
-    else
+    else if (aritmetic == '-')
     {
         result = (bil1 - bil2);
     }
