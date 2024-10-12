@@ -6,7 +6,7 @@ using namespace std;
 
 int main()
 {
-    int bil1, bil2;
+    int bil1, bil2, result;
     string name;
     char aritmetic;
     // std::cout << "Hello World!";
@@ -33,8 +33,17 @@ int main()
     cout << "==================== \n";
     cout << "Name : " << name << "\n";
 
+    if (aritmetic == '+')
+    {
+        result = (bil1 + bil2);
+    }
+    else
+    {
+        result = (bil1 - bil2);
+    }
+
     cout << "==================== \n";
-    cout << "Result " << bil1 << " + " << bil2 << " = " << (bil1 + bil2) << " \n";
+    cout << "Result " << bil1 << " " << aritmetic << " " << bil2 << " = " << result << " \n";
 
     cout << "==================== \n";
     cout << "==================== \n";
