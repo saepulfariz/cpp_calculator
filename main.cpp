@@ -8,6 +8,7 @@ int main()
 {
     int bil1, bil2;
     string name;
+    char aritmetic;
     // std::cout << "Hello World!";
     // printf("Calculator Simple");
 
@@ -25,6 +26,9 @@ int main()
 
     cout << "Input bil 2: ";
     scanf("%d", &bil2);
+
+    cout << "Input aritmetic(+,-,*,/): ";
+    cin >> aritmetic;
 
     cout << "==================== \n";
     cout << "Name : " << name << "\n";
