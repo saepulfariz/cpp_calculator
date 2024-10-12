@@ -50,8 +50,16 @@ int main()
         result = (bil1 / bil2);
     }
 
-    cout << "==================== \n";
-    cout << "Result " << bil1 << " " << aritmetic << " " << bil2 << " = " << result << " \n";
+    if (aritmetic == '+' || aritmetic == '-' || aritmetic == '*' || aritmetic == '/')
+    {
+        cout << "==================== \n";
+        cout << "Result " << bil1 << " " << aritmetic << " " << bil2 << " = " << result << " \n";
+    }
+    else
+    {
+        cout << "==================== \n";
+        cout << "Please input (+,-,*,/)\n";
+    }
 
     cout << "==================== \n";
     cout << "==================== \n";
