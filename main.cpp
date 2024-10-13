@@ -13,10 +13,13 @@ int main()
     // printf("Calculator Simple");
 
     // windows
-    system("cls");
+    // system("cls");
 
     // unix
-    system("clear");
+    // system("clear");
+
+    // general
+    cout << "\033[2J\033[1;1H";
 
     cout << "==================== \n";
     cout << "Calculator Simple C++ \n";
