@@ -1,5 +1,6 @@
 #include <cstdio>
 #include <iostream>
+#include <cctype> // Untuk tolower()
 using namespace std;
 
 // g++ main.cpp -o main
@@ -84,7 +85,8 @@ int main()
         menu();
         cout << "Repeat (y), End (x) :";
         cin >> repeat_char;
-        if (repeat_char == 'y')
+
+        if (toupper(repeat_char) == 'y')
         {
             repeat = true;
         }
