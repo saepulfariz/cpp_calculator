@@ -4,7 +4,7 @@ using namespace std;
 
 // g++ main.cpp -o main
 
-int main()
+void menu()
 {
     int bil1, bil2, result;
     string name;
@@ -72,6 +72,10 @@ int main()
 
     cout << "==================== \n";
     cout << "==================== \n";
+}
 
+int main()
+{
+    menu();
     return 0;
 }
