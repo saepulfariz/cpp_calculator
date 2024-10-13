@@ -12,6 +12,12 @@ int main()
     // std::cout << "Hello World!";
     // printf("Calculator Simple");
 
+    // windows
+    system("cls");
+
+    // unix
+    system("clear");
+
     cout << "==================== \n";
     cout << "Calculator Simple C++ \n";
     cout << "==================== \n";
