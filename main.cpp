@@ -5,6 +5,16 @@ using namespace std;
 
 // g++ main.cpp -o main
 
+// ANSI escape codes
+#define RESET "\033[0m"
+#define RED "\033[31m"
+#define GREEN "\033[32m"
+#define YELLOW "\033[33m"
+#define BLUE "\033[34m"
+#define MAGENTA "\033[35m"
+#define CYAN "\033[36m"
+#define WHITE "\033[37m"
+
 void menu()
 {
     int bil1, bil2, result;
@@ -22,11 +32,17 @@ void menu()
     // general
     cout << "\033[2J\033[1;1H";
 
+    cout << RED;
     cout << "==================== \n";
+    cout << RESET;
     cout << "Calculator Simple C++ \n";
+    cout << RED;
     cout << "==================== \n";
-    cout << "== By Saepulfariz == \n";
+    cout << RESET;
+    cout << GREEN << "== By Saepulfariz ==  " << RESET << "\n";
+    cout << RED;
     cout << "==================== \n";
+    cout << RESET;
 
     cout << "Input your name: ";
     cin >> name;
