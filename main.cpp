@@ -86,7 +86,11 @@ int main()
         cout << "Repeat (y), End (x) :";
         cin >> repeat_char;
 
-        if (toupper(repeat_char) == 'y')
+        // char uppercase_char = toupper(repeat_char);
+
+        // char lowercase_char = tolower(repeat_char);
+
+        if (tolower(repeat_char) == 'y')
         {
             repeat = true;
         }
