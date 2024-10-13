@@ -76,6 +76,22 @@ void menu()
 
 int main()
 {
-    menu();
+    bool repeat = true;
+    char repeat_char;
+
+    while (repeat == true)
+    {
+        menu();
+        cout << "Repeat (y), End (x) :";
+        cin >> repeat_char;
+        if (repeat_char == 'y')
+        {
+            repeat = true;
+        }
+        else
+        {
+            repeat = false;
+        }
+    }
     return 0;
 }
